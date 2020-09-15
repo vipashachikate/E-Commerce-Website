@@ -1,0 +1,370 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+    font-family: 'Aclonica', sans-serif;
+}
+/*HOME SECTION*/
+nav{
+  color:#1a1a2e;
+  width: 100%;
+}
+.top{
+  background: #a3d2ca;
+  height:100px;
+  border-bottom: 3px solid #8d93ab;
+}
+.top .log{
+  float: right;
+}
+.top .log ul, .bottom ul{
+  float: left;
+}
+.top .log ul li{
+  float: right;
+  list-style: none;
+  padding-left: 30px;
+}
+.top .log ul li a{
+  text-decoration: none;
+
+}
+.log input{
+  border:2px solid #8d93ab;
+  border-radius: 20px;
+  height:30px;
+}
+.log button{
+  border: 3px solid #8d93ab;
+  border-radius: 10px;
+}
+.logo div{
+  float: left;
+  font-size: 32px;
+  padding-left: 30px;
+}
+.top .logo img{
+  height:80px;
+  width: auto;
+  padding-top: 10px;
+}
+.bottom{
+  height: 50px;
+  background: #5eaaa8;
+  border-bottom: 3px solid #8d93ab;
+}
+.bottom ul li{
+  float: left;
+  list-style:none;
+  padding-right: 50px;
+}
+.bottom ul li a{
+  text-decoration: none;
+ 
+}
+.active{
+  color: lavenderblush;
+}
+.content{
+    background: #1a1a2e;
+    padding: 50px;
+    margin: 0px auto;
+    height:400px;
+    font-size: 32px;
+    color: #f7d1ba;
+}
+.content .slider .Slides{
+  width:650px;
+  
+}
+
+.content img{
+    height: 400px;
+    width: auto;
+    border: 3px solid #8d93ab;
+}
+.content div{
+  float: left;
+  width: 46%;
+  padding-left: 30px;
+  text-align: center;
+}
+.content button {
+    border: 3px double #8d93ab;
+    border-radius: 20px;
+    height:60px ;
+    width: 300px;
+    background: linear-gradient(#b2ebf2,#b0cac7);
+    text-align: center;
+}
+.content button:hover{
+  border: 3px solid gray;
+  background: linear-gradient(#86c4ba,#b2ebf2);
+}
+.category{
+  background: url("https://images.pexels.com/photos/1210484/pexels-photo-1210484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  font-size: 30px;
+  color: #f7d1ba;
+}
+.category div{
+  float: left;
+  width: 48%;
+  text-align: center;
+}
+.category .women{
+  border-right: 2px solid whitesmoke;
+}
+
+.women button, .men button{
+  width: 200px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background: grey;
+}
+.women button:hover, .men button:hover{
+  border: 3px solid black;
+  background: lightgray;
+}
+.women button a, .men button a{
+  text-decoration: none;
+}
+.featured1, .featured2{
+  background: #1a1a2e;
+  padding: 10px;
+  height: 550px;
+  color: #f7d1ba;
+}
+.featured1 h2{
+  text-align: center;
+}
+.featured1 div, .featured2 div{
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+.featured1 div img, .featured2 div img{
+  height:400px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  transition: 2s height ease-in-out;
+}
+.featured1 div img:hover, .featured2 div img:hover{
+  height: 450px;
+}
+.featured1 div button, .featured2 div button{
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: grey;
+  transition: 1s width ease-in-out;
+}
+.featured1 div button:hover, .featured2 div button:hover{
+  border: 2px solid whitesmoke;
+  background: lightgray;
+  width: 160px;
+}
+footer{
+  background: black;
+  padding: 10px;
+}
+footer p{
+  color:#f7d1ba;
+  text-align: center;
+}
+
+
+/*WOMEN SECTION*/
+.all{
+  float: right;
+  font-size: 21px;
+}
+.all a{
+  text-decoration: none;
+}
+.one {
+  padding-top: 20px;
+  padding-left: 22px;
+  background:#1a1a2e;
+  height:700px;;
+  color: #f7d1ba;
+  text-align: center;
+}
+ .one div,.two div{
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  align-items: center;
+}
+.one .img,.two .img{
+  position: relative;
+  width:440px;
+  height: 500px;
+  transition: 1s width ease-in-out;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.two{
+  background: #1a1a2e;
+  height: 700px;
+  padding-top: 20px;
+  padding-left: 22px;
+  text-align: center;
+  color:#f7d1ba;
+}
+.img:hover {
+  width: 500px;
+ border: 5px solid #5eaaa8;
+}
+.one button, .two button{
+  border: 2px solid #5eaaa8;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  transition: 2s ease-in-out;
+}
+.one button:hover, .two button:hover{
+  width: 250px;
+  background: lightcoral;
+  border: 2px solid whitesmoke;
+}
+.one button a, .two button a{
+  text-decoration: none;
+}
+
+
+/*SIGN-UP , LOG-IN, CONTACT US*/
+.form-sign {
+  text-align: center;
+  padding-top: 50px;
+  height: 100vh;
+  background:#1a1a2e;
+  color: #f7d1ba;
+  font-size: 28px;
+}
+form{
+  color:#f7d1ba;
+}
+.form-sign form input, .form-log form input , .form-contact form input, .form-contact form .query{
+  height:50px;
+  width:350px;
+  border: 3px solid #5eaaa8;
+  border-radius: 15px;
+  transition: 2s width ease-in-out;
+}
+.form-sign form input:hover, .form-log form input:hover, .form-contact form input:hover, .form-contact form .query:hover{
+  background:lightblue;
+  width: 400px;
+}
+.form-sign form .submit, .form-log form .submit, .form-contact form .submit{
+  width:200px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.form-sign form .submit:hover, .form-log form .submit:hover, .form-contact form .submit:hover{
+  width:250px;
+}
+.form-log{
+  text-align: center;
+  height: 100vh;
+  background:#1a1a2e;
+  color: #f7d1ba;
+  font-size: 28px;
+  padding: 30px;
+
+}
+.form-contact{
+  padding: 30px;
+  background:#1a1a2e;
+  color: #f7d1ba;
+  font-size: 28px;
+}
+.form-contact form .query{
+  height:80px;
+}
+.contact{
+  height: 100vh;
+  background: #1a1a2e;
+}
+.contact div{
+  float: left;
+  width: 46%;
+  background: #1a1a2e;
+  padding-top: 50px;
+  text-align: center;
+}
+.contact .brand p{
+  color: #f7d1ba;
+  font-size: 28px;
+}
+.contact .brand p a{
+  text-decoration: none;
+}
+.store{
+  height: 300px;
+  background: #1a1a2e;
+  color: #f7d1ba;
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #86c4ba;
+}
+.store h2{
+  text-align: center;
+}
+.about{
+  background: #1a1a2e;
+  height: 600px;
+  color: #f7d1ba;
+  font-size: 28px;
+  padding: 20px;
+}
+.about div{
+  float: left;
+  width: 47%;
+  text-align: center;
+  padding: 20px;
+  height: 500px;
+}
+.about .profile1{
+  border-right: 2px solid #86c4ba;
+}
+/*WITEM1*/
+.witem1{
+  background: #1a1a2e;
+  height: 100vh;
+  padding: 10px;
+  color: #f7d1ba;
+  font-size: 32px;
+}
+.head{
+  color: #f7d1ba;
+  background: #1a1a2e;
+  padding: 10px;
+}
+.head a{
+  text-decoration: none;
+  color: #f7d1ba;
+}
+.witem1 div{
+  float: left;
+  width: 46%;
+  text-align: center;
+}
+.witem1 div img{
+  height:600px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  width: 470px;
+  transition: 2s width ease-in-out;
+}
+.witem1 div img:hover{
+  border:3px solid #5eaaa8;
+  width: 540px;
+
+}
